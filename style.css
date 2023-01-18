@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw; height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #FFE7EF;
+}
+
+.container{
+
+    width: 550px;
+    height: 883px;
+    background: linear-gradient(180deg, white 33.29%, #F7F8FC 100%);
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 24px;
+}
+
+.logo{
+    width: 84px;
+    height: 42px;
+}
+
+.intersect, .chat{
+    display: block;
+    width: 32.33px;
+    height: 34px;
+    margin-inline: 20px;
+}
+
+main{
+    width: 100%;
+}
+
+#dog-data{
+    height: 75%;
+    position: relative;
+}
+
+.dog-image{
+    width: 534px;
+    height: 684.5px;
+    border-radius: 15px;
+    margin-inline: 8px;
+}
+
+#name-age{
+    position: absolute;
+    top: 570px;
+    left: 26px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F8F8F8
+}
+
+#description{
+    padding-inline: 10px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 615px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #B7B7B7
+}
+
+#buttons{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    margin-inline: 12px;
+    cursor: pointer;
+}
+
+#accepted{
+    background: url('./images/icon-heart.png') no-repeat;
+    background-position: center;
+}
+
+#rejected{
+    background: url('./images/icon-cross.png') no-repeat;
+    background-position: center;
+}
+
+#accepted:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #DBFFF4;    
+}
+
+#rejected:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #FFE7EF;
+}
+
+.decision-image{
+    width: 172.32px;
+    height: 80px;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 50.62px;
+    left: 47px;
+}
